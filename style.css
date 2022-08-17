@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 80px;
+}
+
+.navbar-container img{
+    width: 120px;
+}
+.grow-list .list{
+    display: flex;
+    list-style: none;
+    margin-right: 30rem;
+}
+
+.button-group .nav-button{
+    padding: 12px 25px;
+    border-radius: 10px;
+    background-color: #736fbe;
+    color: white;
+}
+.grow-list .list li{
+    margin: 0 15px;
+    color: rgb(71, 61, 61);
+}
+
+.grow-list .list .home{
+    color: black;
+    font-weight: bolder;
+}
+.banner-container{
+    display: flex;
+    margin-left: 80px;
+    justify-content: space-between;
+
+}
+.banner-container .heading-text{
+    margin-top: 20%;
+    margin-bottom: 20px;
+    font-size: 70px;
+    color: #3e3162;
+    width: 400px;
+
+}
+.banner-container p{
+    color: rgb(71, 61, 61);
+    margin-bottom: 10%;
+    width: 330px;
+}
+.banner-container button{
+    padding: 15px 40px;
+    border-radius: 10px;
+    background-color: #736fbe;
+    color: white;
+}
+.banner-container img{
+    height: 600px;
+    width: 800px;
+}
+
+span{
+    color: #736fbe;
+}
